@@ -7,7 +7,7 @@ function NavTop() {
         <div className="row">
           <div className="col-md-4 valign">
             <a href="#0" className="logo icon-img-120">
-              <img src="/assets/imgs/robotic-rumble.png" alt="" />
+              <img src="/assets/imgs/robotic-logo.png" alt="" />
             </a>
           </div>
           <div className="col-md-4 valign">
