@@ -34,9 +34,9 @@ function Dark() {
             <Skills />
             <Portfolio />
             <Testimonials />
-            <Price />
+            {/* <Price /> */}
             <Info />
-            <Blog />
+            {/* <Blog /> */}
           </section>
         </main>
         <Footer />

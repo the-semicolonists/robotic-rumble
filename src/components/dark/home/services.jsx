@@ -11,8 +11,8 @@ function Services() {
           <div className="col-lg-6 text-center">
             <h6 className="sub-title opacity-7 mb-15">Our Services</h6>
             <h3>
-              Turn Information{' '}
-              <span className="main-color">Into Actionable</span> Insights
+              Turn Passion{' '}
+              <span className="main-color">Into Powerful</span> Exposure
             </h3>
           </div>
         </div>

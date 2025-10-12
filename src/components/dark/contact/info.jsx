@@ -3,7 +3,7 @@ import React from 'react';
 function Info() {
   return (
     <div
-      className="sec-box contact section-padding bord-thin-top"
+      className="sec-box contact section-padding"
       data-scroll-index="5"
     >
       <div className="row">
