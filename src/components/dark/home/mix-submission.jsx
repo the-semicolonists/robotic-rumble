@@ -2,7 +2,7 @@ import React from 'react';
 
 function MixSubmission() {
   return (
-    <div className="sec-box portfolio section-padding bord-thin-bottom" data-scroll-index="3" >
+    <div className="sec-box portfolio section-padding bord-thin-bottom" data-scroll-index="4" >
       <div className="sec-head mb-30">
         <div className="row">
           <div className="col-lg-8">
