@@ -2060,6 +2060,19 @@ body.loaded {
 
 /* Header
 -----------------------------------------------------------------*/
+.intro-profile {
+  background-image: url(../imgs/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  border-radius: 15px 0 15px 15px;
+}
+
+.hero-background {
+  background: #1D1D1D;
+  background: linear-gradient(360deg, #1d1d1d 20%, rgba(255, 255, 255, 0) 100%);
+}
+
 .intro-profile .box-img {
   margin-bottom: -80px;
   border-radius: 15px 0 15px 15px;
