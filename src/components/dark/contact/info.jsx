@@ -10,13 +10,13 @@ function Info() {
         <div className="col-lg-5">
           <div className="sec-head md-mb80 wow fadeIn">
             <h6 className="sub-title mb-15 opacity-7">Get In Touch</h6>
-            <h2 className="fz-50">Let is make your brand brilliant!</h2>
+            <h3>Let’s build something loud together!</h3>
             <p className="fz-15 mt-10">
               If you would like to work with us or just want to get in touch,
               we’d love to hear from you!
             </p>
             <div className="phone fz-30 fw-600 mt-30 underline">
-              <a href="#0" className="main-color">
+              <a href="tel:+18408412569" className="main-color">
                 +1 840 841 25 69
               </a>
             </div>
@@ -28,7 +28,7 @@ function Info() {
               </li>
               <li className="mr-30">
                 <a href="#0" className="hover-this">
-                  <span className="hover-anim">Twitter</span>
+                  <span className="hover-anim">Tiktok</span>
                 </a>
               </li>
               <li className="mr-30">
