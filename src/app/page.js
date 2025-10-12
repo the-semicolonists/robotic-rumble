@@ -8,10 +8,10 @@ import Landing from '@/components/home/Landing';
 import Dark from './dark/page';
 import Lines from '@/components/Common/Lines';
 export const metadata = {
-  title: 'Gavi',
+  title: 'Robotic Rumble',
   icons: {
-    icon: '/assets/imgs/favicon.ico',
-    shortcut: '/assets/imgs/favicon.ico',
+    icon: '/assets/imgs/favicon.png',
+    shortcut: '/assets/imgs/favicon.png',
     other: generateStylesheetObject([
       '/assets/css/plugins.css',
       '/assets/css/style.css',
