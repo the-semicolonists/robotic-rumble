@@ -6,8 +6,8 @@ function NavTop() {
       <div className="container">
         <div className="row">
           <div className="col-md-4 valign">
-            <a href="#0" className="logo icon-img-60">
-              <img src="/assets/imgs/logo-light.png" alt="" />
+            <a href="#0" className="logo icon-img-120">
+              <img src="/assets/imgs/robotic-rumble.png" alt="" />
             </a>
           </div>
           <div className="col-md-4 valign">
@@ -30,7 +30,7 @@ function NavTop() {
             <div className="full-width info">
               <div className="d-flex justify-content-end">
                 <a href="mailto:abc@example.com">
-                  <span className="sub-title fz-12">Gavi@website.com</span>
+                  <span className="sub-title fz-12">info@roboticrumble.com</span>
                 </a>
               </div>
             </div>

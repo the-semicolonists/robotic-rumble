@@ -1,14 +1,13 @@
 'use client';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper';
+import { Navigation } from 'swiper';
 
 const swiperOptions = {
   modules: [Navigation],
   slidesPerView: 1,
   spaceBetween: 30,
   speed: 1000,
-
   navigation: {
     nextEl: '.testimonials .swiper-button-next',
     prevEl: '.testimonials .swiper-button-prev',
@@ -24,22 +23,23 @@ function Testimonials() {
             <div className="col-lg-7">
               <h6 className="sub-title opacity-7 mb-15">Testimonials</h6>
               <h3>
-                Trusted by <span className="main-color">Hundered Clients</span>
+                Loved by <span className="main-color">Our Artists & Creators</span>
               </h3>
             </div>
           </div>
         </div>
+
         <div className="row">
           <div className="col-lg-9">
             <div className="testim-swiper wow fadeIn">
-              {/* <div className="testim"> */}
               <Swiper
                 id="content-carousel-container-unq-testim"
                 className="swiper-container"
                 {...swiperOptions}
               >
+                {/* Testimonial 1 */}
                 <SwiperSlide>
-                  <div className="item ">
+                  <div className="item">
                     <div className="icon-img-60 mr-60">
                       <img src="/assets/imgs/svg-assets/quote.png" alt="" />
                     </div>
@@ -61,24 +61,23 @@ function Testimonials() {
                           </div>
                         </div>
                         <p className="fz-20 mt-15">
-                          We have purchased well into the thousands of items,
-                          but this is without doubt one of the best we’ve have
-                          been lucky enough to work on, the attention to detail
-                          apparent throughout, and the delivery is impressively
-                          intuitive.
+                          I heard about this platform during one of your events and decided to
+                          submit my track afterward. The submission process was super easy, and
+                          I was thrilled to see my song featured the following week. Such an
+                          inspiring experience for independent artists like me!
                         </p>
                       </div>
                       <div className="d-flex align-items-center">
                         <div>
                           <div className="img">
-                            <img src="/assets/imgs/testim/1.jpg" alt="" />
+                            <img src="/assets/imgs/testim/female-dj-testi.webp" alt="" />
                           </div>
                         </div>
                         <div className="ml-30">
                           <div className="info">
-                            <h6 className="main-color">Leonard Heiser</h6>
+                            <h6 className="main-color">Ava Reynolds</h6>
                             <span className="fz-13 mt-10 opacity-8">
-                              Envato customer
+                              Indie Singer–Songwriter
                             </span>
                           </div>
                         </div>
@@ -86,6 +85,8 @@ function Testimonials() {
                     </div>
                   </div>
                 </SwiperSlide>
+
+                {/* Testimonial 2 */}
                 <SwiperSlide>
                   <div className="item d-flex">
                     <div>
@@ -105,29 +106,27 @@ function Testimonials() {
                               <i className="fas fa-star"></i>
                             </span>
                             <span className="fz-12 opacity-7 ml-10">
-                              (71 Reviews)
+                              (58 Reviews)
                             </span>
                           </div>
                         </div>
                         <p className="fz-20 mt-15">
-                          We have purchased well into the thousands of items,
-                          but this is without doubt one of the best we’ve have
-                          been lucky enough to work on, the attention to detail
-                          apparent throughout, and the delivery is impressively
-                          intuitive.
+                          I discovered your platform after attending your showcase. I submitted
+                          my first remix and was blown away by how smooth the entire process was.
+                          The team’s feedback and support really helped me grow as an artist.
                         </p>
                       </div>
                       <div className="d-flex align-items-center">
                         <div>
                           <div className="img">
-                            <img src="/assets/imgs/testim/1.jpg" alt="" />
+                            <img src="/assets/imgs/testim/2.jpg" alt="" />
                           </div>
                         </div>
                         <div className="ml-30">
                           <div className="info">
-                            <h6 className="main-color">Leonard Heiser</h6>
+                            <h6 className="main-color">Marcus Vega</h6>
                             <span className="fz-13 mt-10 opacity-8">
-                              Envato customer
+                              Electronic Producer / DJ
                             </span>
                           </div>
                         </div>
@@ -136,9 +135,9 @@ function Testimonials() {
                   </div>
                 </SwiperSlide>
               </Swiper>
-              {/* </div> */}
             </div>
           </div>
+
           <div className="col-lg-3 d-flex align-items-end justify-content-end">
             <div className="swiper-controls testim-controls arrow-out d-flex mr-20 ml-auto">
               <div
