@@ -5,6 +5,7 @@ import Cursor from '@/components/Common/cusor';
 import ProgressScroll from '@/components/Common/ProgressScroll';
 import Navbar from '@/components/home/Navbar';
 import Landing from '@/components/home/Landing';
+import Dark from './dark/page';
 import Lines from '@/components/Common/Lines';
 export const metadata = {
   title: 'Gavi',
@@ -20,16 +21,16 @@ export const metadata = {
 export default function Home() {
   return (
     <body>
-      <LoadingScreen />
-      <Cursor />
-      <ProgressScroll />
+      {/* <LoadingScreen /> */}
+      {/* <Cursor /> */}
+      {/* <ProgressScroll /> */}
       <Lines />
       <div>
         <div>
           <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <main>
-              <Landing />
+              <Dark />
             </main>
           </div>
         </div>
