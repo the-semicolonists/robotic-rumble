@@ -8,15 +8,7 @@ function Footer() {
           <div className="col-12">
             <div className="text-center">
               <p className="fz-13">
-                © 2023 Gavi is Proudly Powered by{' '}
-                <span className="underline main-color">
-                  <a
-                    href="https://themeforest.net/user/UiCamp"
-                    target="_blank"
-                  >
-                    UiCamp
-                  </a>
-                </span>
+                © 2025 <span className="underline main-color">Robotic Rumble</span>. All rights reserved.
               </p>
             </div>
           </div>

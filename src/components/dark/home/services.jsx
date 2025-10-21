@@ -2,10 +2,7 @@ import React from 'react';
 import data from '@/data/home/services.json';
 function Services() {
   return (
-    <div
-      className="sec-box services section-padding bord-thin-bottom"
-      data-scroll-index="1"
-    >
+    <div className="sec-box services section-padding bord-thin-bottom" data-scroll-index="1" >
       <div className="sec-head mb-80 wow fadeInUp">
         <div className="row justify-content-center">
           <div className="col-lg-6 text-center">

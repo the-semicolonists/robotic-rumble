@@ -4,6 +4,7 @@ import LoadingScreen from '@/components/Common/loader';
 import Blog from '@/components/dark/home/blog';
 import ContactUs from '@/components/dark/contact/ContactUs';
 import Info from '@/components/dark/contact/info';
+import MixSubmission from '@/components/dark/home/mix-submission';
 import Footer from '@/components/dark/home/footer';
 import NavTop from '@/components/dark/home/nav-top';
 import Navbar from '@/components/dark/home/navbar';
@@ -32,6 +33,7 @@ function Dark() {
           <section className="in-box">
             <Services />
             <Skills />
+            <MixSubmission />
             <Portfolio />
             <Testimonials />
             {/* <Price /> */}
