@@ -106,10 +106,10 @@ export default function DemoSubmission() {
                         textAlign: "center",
                     }}
                 >
-                    Get Heard at Robotic Rumble
+                    Submit Your Demo
                 </h2>
                 <p style={{ color: "#ccc", marginBottom: "20px", textAlign: "center" }}>
-                    We’re always listening for new talent. Drop your best work below.
+                    We’re looking for finished, release-ready tracks. If your sound fits the Robotic Rumble Recordings vibe, we’ll be in touch.
                 </p>
 
                 <form onSubmit={handleSubmit}>
@@ -189,9 +189,7 @@ export default function DemoSubmission() {
                             }}
                         />
                         <label style={{ fontSize: "0.9rem", color: "#ccc", flex: 1 }}>
-                            I confirm that I am the creator or have the rights to the
-                            submitted music, and I give Robotic Rumble permission to use it in
-                            live events, streams, or promotions.
+                            I confirm I am the creator or hold full rights to this track, and I give Robotic Rumble Recordings permission to consider it for official label representation and release.
                         </label>
                     </div>
 
