@@ -9,11 +9,10 @@ function Info() {
       <div className="row">
         <div className="col-lg-5">
           <div className="sec-head md-mb80 wow fadeIn">
-            <h6 className="sub-title mb-15 opacity-7">Get In Touch</h6>
+            <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
             <h3>Let’s build something loud together!</h3>
             <p className="fz-15 mt-10">
-              If you would like to work with us or just want to get in touch,
-              we’d love to hear from you!
+              For general questions, marketing, partnerships, or business inquiries — we’d love to hear from you.
             </p>
             <div className="phone fz-30 fw-600 mt-30 underline">
               <a href="tel:+18408412569" className="main-color">
