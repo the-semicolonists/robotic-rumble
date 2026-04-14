@@ -1,32 +1,13 @@
 [
-  {
-    "photo": "/assets/imgs/works/1.jpg",
-    "title": "Deluxe",
-    "link": "https://open.spotify.com/embed/track/3B0hzwc1e8AYOytj9hZS2I?utm_source=generator&theme=0"
-  },
-  {
-    "photo": "/assets/imgs/works/2.jpg",
-    "title": "Freestyle & Breakdance",
-    "link": "https://open.spotify.com/embed/track/3fe81dBfsLlnHjVOUhWZYA?utm_source=generator&theme=0"
-  },
-  {
-    "photo": "/assets/imgs/works/3.jpg",
-    "title": "LOL",
-    "link": "https://open.spotify.com/embed/track/6HjtZWIo0bh0KLD8Tq4ujR?utm_source=generator&theme=0"
-  },
-  {
-    "photo": "/assets/imgs/works/3.jpg",
-    "title": "Immersion",
-    "link": "https://open.spotify.com/embed/track/4Y2glvLjQGOb4dXnwm1hQf?utm_source=generator&theme=0"
-  },
-  {
-    "photo": "/assets/imgs/works/3.jpg",
-    "title": "Partiner BPO",
-    "link": "/dark/works/single-project"
-  },
-  {
-    "photo": "/assets/imgs/works/4.jpg",
-    "title": "From our gallery",
-    "link": "/dark/works/single-project"
-  }
+  { "embedUrl": "https://open.spotify.com/embed/track/4bgKoAY7hjO9TWOEyLeCV5?utm_source=generator" },
+  { "embedUrl": "https://open.spotify.com/embed/track/2zKUHiwfMlfauvo5Z2NhDM?utm_source=generator" },
+  { "embedUrl": "https://open.spotify.com/embed/track/7dr45aXsMtXQiPvmpc8BXv?utm_source=generator" },
+  { "embedUrl": "https://open.spotify.com/embed/track/1GKhnp50XUWhYdEfj3s5wt?utm_source=generator" },
+  { "embedUrl": "https://open.spotify.com/embed/track/1vvnBOSzpvA0LdRDipRIJJ?utm_source=generator" },
+  { "embedUrl": "https://open.spotify.com/embed/track/0IfYBYLdSm2jbSMZOu4sr4?utm_source=generator" },
+  { "embedUrl": "https://open.spotify.com/embed/track/68ChWmNjLfcNxpuV63pOw1?utm_source=generator&theme=0" },
+  { "embedUrl": "https://open.spotify.com/embed/track/6Ywb3x8PR4jyYBK61cKZFu?utm_source=generator&theme=0" },
+  { "embedUrl": "https://open.spotify.com/embed/track/7liDw9yFUoHZH1sQJH1U35?utm_source=generator&theme=0" },
+  { "embedUrl": "https://open.spotify.com/embed/track/2xiEj5q4V0W02GoF0CD2eY?utm_source=generator&theme=0" },
+  { "embedUrl": "https://open.spotify.com/embed/track/3xD5E2Yb6rPPFNji1SvCNP?utm_source=generator&theme=0" }
 ]
