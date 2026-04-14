@@ -36,32 +36,33 @@
 
 ## 3. New Releases (`Portfolio` + `works.json`)
 
-**Data structure** — upgrade `src/data/home/works.json` to:
+**Layout:** Spotify embeds (playable in-page), 2-column grid. Use the 11 tracks from the owner's old site.
+
+**Data structure** — `src/data/home/works.json` stores Spotify embed URLs:
 
 ```json
 [
-  {
-    "title": "Track Title",
-    "artist": "Artist Name",
-    "year": "2025",
-    "artwork": "/assets/imgs/works/cover.jpg",
-    "links": {
-      "spotify": "https://...",
-      "appleMusic": "https://...",
-      "soundcloud": "https://..."
-    }
-  }
+  { "embedUrl": "https://open.spotify.com/embed/track/4bgKoAY7hjO9TWOEyLeCV5?utm_source=generator" },
+  { "embedUrl": "https://open.spotify.com/embed/track/2zKUHiwfMlfauvo5Z2NhDM?utm_source=generator" }
 ]
 ```
 
-- `links` fields are optional — only render a button if the URL is present
-- Remove all Spotify embed iframes
-- Existing `works.json` entries (which use Spotify embed URLs) are replaced with real track data using this new structure
+**All 11 tracks from old site:**
+- `4bgKoAY7hjO9TWOEyLeCV5`
+- `2zKUHiwfMlfauvo5Z2NhDM`
+- `7dr45aXsMtXQiPvmpc8BXv`
+- `1GKhnp50XUWhYdEfj3s5wt`
+- `1vvnBOSzpvA0LdRDipRIJJ`
+- `0IfYBYLdSm2jbSMZOu4sr4`
+- `68ChWmNjLfcNxpuV63pOw1`
+- `6Ywb3x8PR4jyYBK61cKZFu`
+- `7liDw9yFUoHZH1sQJH1U35`
+- `2xiEj5q4V0W02GoF0CD2eY`
+- `3xD5E2Yb6rPPFNji1SvCNP`
 
-**Card layout (Option A):**
-- Artwork thumbnail
-- Title + artist + year
-- Platform buttons: Spotify, Apple Music, SoundCloud (skipped if no link)
+**Future upgrade path:** When owner sets up his Spotify or SoundCloud playlist, replace the entire section with a single playlist embed — one URL change, no structural code changes needed.
+
+**Demo submission flow:** Artists submit any streaming link via the form → owner reviews → owner adds approved tracks to his platform playlist → site reflects automatically (once playlist embed is in place).
 
 **Section copy:**
 - Heading: "New Releases"
