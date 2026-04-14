@@ -13,17 +13,17 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a href="#0" data-scroll-nav="3">
-                <span>Releases</span>
+                <span>New Releases</span>
               </a>
             </li>
             <li className="nav-item">
               <a href="#0" data-scroll-nav="4">
-                <span>Demo Submission</span>
+                <span>Demo Submissions</span>
               </a>
             </li>
             <li className="nav-item">
               <a href="#0" data-scroll-nav="5">
-                <span>Contact</span>
+                <span>Contact Us</span>
               </a>
             </li>
           </ul>
