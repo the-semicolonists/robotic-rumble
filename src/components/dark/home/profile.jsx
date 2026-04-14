@@ -1,4 +1,4 @@
-import React from ‘react’;
+import React from 'react';
 
 function Profile() {
   return (
@@ -11,7 +11,7 @@ function Profile() {
             <span className="main-color">Robotic Rumble Recordings</span>
           </h1>
           <h5>
-            Founded by @Meetch — LA’s favorite robot 🤖
+            Founded by @Meetch — LA's favorite robot 🤖
           </h5>
           <p className="mt-20">
             A dance music label built on pure energy, creative freedom, and forward-thinking sound.
