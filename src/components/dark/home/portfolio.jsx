@@ -111,7 +111,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="releases-swiper" style={{ position: 'relative', padding: '0 48px', overflowX: 'hidden' }}>
+      <div className="releases-swiper" style={{ position: 'relative', overflowX: 'hidden' }}>
         {/* Prev arrow */}
         <div
           className="releases-prev"
